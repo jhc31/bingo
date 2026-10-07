@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bingo 策略實驗室</title>
+  <meta name="description" content="Bingo Bingo 賓果賓果 選號策略預測、即時戰績、18 萬期回測與資金模擬">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%232a78d6'/><text x='16' y='21' font-size='14' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'>B</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#predict">
+        <span class="brand-ball">B</span>
+        <span>Bingo 策略實驗室</span>
+      </a>
+      <nav class="tabs" role="tablist">
+        <a href="#predict" role="tab">下期預測</a>
+        <a href="#live" role="tab">即時戰績</a>
+        <a href="#backtest" role="tab">回測報告</a>
+        <a href="#simulate" role="tab">資金模擬</a>
+        <a href="#history" role="tab">開獎紀錄</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="切換深淺色">◐</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="notice">
+      <strong>先說結論：</strong>18.5 萬期 walk-forward 回測中，熱號、冷號、遺漏、拖號、機器學習等 13 種選號策略
+      <strong>沒有一種能勝過隨機選號</strong>；所有玩法長期回收率都低於 100%。本站提供策略比較、即時驗證與風險試算，不保證中獎。
+    </div>
+    <div id="promoBanner"></div>
+
+    <!-- 下期預測 -->
+    <section id="tab-predict" class="tab-panel">
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-head">
+            <h2>最新開獎</h2>
+            <span class="muted" id="latestMeta"></span>
+          </div>
+          <div class="balls" id="latestBalls"></div>
+          <p class="legend-line"><span class="ball sm super">S</span> 超級獎號（最後開出的號碼）</p>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <h2>下一期</h2>
+            <span class="muted" id="nextMeta"></span>
+          </div>
+          <div class="countdown" id="countdown">--:--</div>
+          <div class="muted small" id="nextTime"></div>
+          <div class="small" id="predStatus"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h2>本期投注建議</h2>
+          <div class="chips" id="starChips"></div>
+        </div>
+        <div class="controls">
+          <label>選號策略
+            <select id="strategySelect"></select>
+          </label>
+          <label>預算（元）
+            <input id="budgetInput" type="number" min="25" step="25" value="1000">
+          </label>
+          <label>打算玩幾期
+            <select id="drawsSelect">
+              <option value="1">只買這 1 期</option>
+              <option value="12" selected>12 期（約 1 小時）</option>
+              <option value="36">36 期（約 3 小時）</option>
+              <option value="203">203 期（一整天）</option>
+            </select>
+          </label>
+        </div>
+        <div class="advice">
+          <div class="advice-picks">
+            <div class="label" id="pickLabel">推薦號碼</div>
+            <div class="balls big" id="pickBalls"></div>
+            <div class="muted small" id="pickNote"></div>
+          </div>
+          <div class="advice-games">
+            <div class="label">玩法比較（依下一期適用的獎金表）</div>
+            <div id="gameCompare"></div>
+          </div>
+        </div>
+        <div id="payoutBox" class="payout-box"></div>
+        <div class="label">倍數建議</div>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr><th>倍數</th><th class="num">每期投注</th><th class="num">總投注</th><th class="num">預期損益</th>
+                <th class="num">獲利機率</th><th class="num">中途用光預算</th></tr>
+            </thead>
+            <tbody id="multBody"></tbody>
+          </table>
+        </div>
+        <p class="muted small" id="multNote"></p>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h2>各策略推薦號碼</h2>
+          <span class="muted small" id="tableStars"></span>
+        </div>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr><th>策略</th><th>推薦號碼</th><th>上期結果</th><th class="num">即時戰績回收率</th><th class="num">期數</th></tr>
+            </thead>
+            <tbody id="predictBody"></tbody>
+          </table>
+        </div>
+        <p class="muted small">預測在每期開獎、官方公布號碼後（約 1 分鐘內）自動產生，所以會在下一期開獎前約 4 分鐘出現，且只用該期之前的資料。加碼只會改變獎金與建議玩法，不會改變號碼。點選某一列即可切換上方的策略。</p>
+      </div>
+    </section>
+
+    <!-- 即時戰績 -->
+    <section id="tab-live" class="tab-panel" hidden>
+      <div class="card">
+        <div class="card-head">
+          <h2>即時戰績（上線後的樣本外驗證）</h2>
+          <div class="chips" id="liveChips"></div>
+        </div>
+        <div class="controls">
+          <label>策略
+            <select id="liveStrategy"></select>
+          </label>
+        </div>
+        <p class="muted small">只計算開獎前就產生的預測。z 值衡量平均命中數與公平開獎期望的差距，|z| 小於 2 屬正常波動；期數少時回收率會因中大獎而大幅跳動。</p>
+        <div class="table-wrap">
+          <table class="data">
+            <thead id="liveHead"></thead>
+            <tbody id="liveBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card" id="liveDetailCard" hidden>
+        <div class="card-head">
+          <h2 id="liveDetailTitle">最近預測</h2>
+        </div>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr><th>期別</th><th>推薦號碼（綠色為命中）</th><th class="num">命中</th><th class="num">1倍獎金</th><th>狀態</th></tr>
+            </thead>
+            <tbody id="liveDetailBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 回測報告 -->
+    <section id="tab-backtest" class="tab-panel" hidden>
+      <div class="card">
+        <div class="card-head">
+          <h2>理論勝率（公平開獎下，任何選號方式都一樣）</h2>
+        </div>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr><th>玩法</th><th class="num">中獎率</th><th class="num">獲利率（獎金&gt;本金）</th>
+                <th class="num">回收率 平常</th><th class="num">回收率 快閃加碼</th></tr>
+            </thead>
+            <tbody id="theoryBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <h2>各策略回測</h2>
+          <div class="chips" id="btChips"></div>
+        </div>
+        <p class="muted small" id="btMeta"></p>
+        <div class="chart" id="btChart"></div>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr><th>策略</th><th class="num">平均命中</th><th class="num">z(命中)</th><th class="num">前半/後半 z</th>
+                <th class="num">中獎率</th><th class="num">回收率 平常</th><th class="num">回收率 加碼</th>
+                <th class="num">最大回撤(1倍)</th><th class="num">最長槓龜</th></tr>
+            </thead>
+            <tbody id="btBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head"><h2>每天每期都買（203 期）的單日結果</h2></div>
+        <p class="muted small">起始資金 10,000 元；固定 1 倍 vs 馬丁格爾（沒賺就加倍，上限 50 倍）。</p>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr><th>玩法</th><th>獎金</th><th class="num">固定1倍 單日獲利機率</th><th class="num">固定1倍 單日平均</th>
+                <th class="num">馬丁 單日獲利機率</th><th class="num">馬丁 爆倉率</th></tr>
+            </thead>
+            <tbody id="dailyBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 資金模擬 -->
+    <section id="tab-simulate" class="tab-panel" hidden>
+      <div class="card">
+        <div class="card-head"><h2>倍數與資金模擬器</h2></div>
+        <form class="sim-form" id="simForm">
+          <label>玩法
+            <select name="stars"></select>
+          </label>
+          <label>獎金表
+            <select name="table"></select>
+          </label>
+          <label>下注方式
+            <select name="mode">
+              <option value="fixed">固定倍數</option>
+              <option value="step">累進（沒中 +1 倍，中了回起始）</option>
+              <option value="double">加倍／馬丁（沒賺 ×2，賺了回起始）</option>
+            </select>
+          </label>
+          <label>起始倍數
+            <input name="mult" type="number" min="1" max="50" value="2">
+          </label>
+          <label>最高倍數
+            <input name="maxMult" type="number" min="1" max="50" value="4">
+          </label>
+          <label>本金（元）
+            <input name="bankroll" type="number" min="25" step="25" value="10000">
+          </label>
+          <label>每場期數
+            <select name="draws">
+              <option value="12">12 期（約 1 小時）</option>
+              <option value="36">36 期（約 3 小時）</option>
+              <option value="203" selected>203 期（一整天）</option>
+              <option value="1421">1,421 期（一週）</option>
+            </select>
+          </label>
+          <label>模擬場數
+            <select name="runs">
+              <option value="2000">2,000</option>
+              <option value="10000" selected>10,000</option>
+              <option value="30000">30,000</option>
+            </select>
+          </label>
+          <button type="submit" class="btn">開始模擬</button>
+        </form>
+        <div class="tiles" id="simTiles"></div>
+        <div class="chart" id="simChart"></div>
+        <p class="muted small">每期開獎以精確超幾何機率抽樣（回測已驗證實際開獎與公平開獎一致）。下一注付不出來即視為爆倉並停止。</p>
+      </div>
+    </section>
+
+    <!-- 開獎紀錄 -->
+    <section id="tab-history" class="tab-panel" hidden>
+      <div class="card">
+        <div class="card-head"><h2>開獎紀錄</h2></div>
+        <div id="historyList" class="history"></div>
+        <button class="btn ghost" id="moreHistory" type="button">載入更多</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>資料來源：台灣彩券官方開獎 API。本站為統計研究用途，與台灣彩券公司無關，實際開獎與獎金以台灣彩券公布為準。</p>
+    <p>理性投注，量力而為。未滿 18 歲者不得購買或兌領彩券。</p>
+  </footer>
+
+  <div class="tooltip" id="tooltip" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>

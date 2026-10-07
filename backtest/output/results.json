@@ -1,0 +1,2706 @@
+{
+ "meta": {
+  "draws_total": 205030,
+  "draws_evaluated": 185030,
+  "first_eval_date": "2024-04-08",
+  "last_eval_date": "2026-10-06",
+  "bonferroni_alpha": 0.0009615384615384616,
+  "promotion": "2026 中秋 基本玩法快閃加碼",
+  "generated": "2026-10-07",
+  "historical_promo_days": [
+   "2025-01-24",
+   "2025-01-25",
+   "2025-01-26",
+   "2025-01-27",
+   "2025-01-28",
+   "2025-01-29",
+   "2025-01-30",
+   "2025-01-31",
+   "2025-02-01",
+   "2025-02-02",
+   "2025-02-03",
+   "2025-02-04",
+   "2025-02-05",
+   "2025-02-06",
+   "2025-02-07",
+   "2025-02-08",
+   "2025-02-09",
+   "2025-02-10",
+   "2025-02-11",
+   "2025-02-12",
+   "2026-02-27",
+   "2026-02-28",
+   "2026-03-01",
+   "2026-03-02",
+   "2026-03-03",
+   "2026-06-19",
+   "2026-06-20",
+   "2026-06-21"
+  ]
+ },
+ "theoretical": {
+  "1": {
+   "base": {
+    "return_rate": 0.5,
+    "payout_mean": 12.5,
+    "payout_var": 468.75,
+    "p_any_prize": 0.25,
+    "p_profit": 0.25
+   },
+   "promo": {
+    "return_rate": 0.75,
+    "payout_mean": 18.75,
+    "payout_var": 1054.6875,
+    "p_any_prize": 0.25,
+    "p_profit": 0.25
+   }
+  },
+  "2": {
+   "base": {
+    "return_rate": 0.5601265822784811,
+    "payout_mean": 14.003164556962027,
+    "payout_var": 379.465179858997,
+    "p_any_prize": 0.439873417721519,
+    "p_profit": 0.060126582278481014
+   },
+   "promo": {
+    "return_rate": 0.7405063291139241,
+    "payout_mean": 18.512658227848103,
+    "payout_var": 1247.4713587566096,
+    "p_any_prize": 0.439873417721519,
+    "p_profit": 0.060126582278481014
+   }
+  },
+  "3": {
+   "base": {
+    "return_rate": 0.555014605647517,
+    "payout_mean": 13.875365141187926,
+    "payout_var": 3623.199656025387,
+    "p_any_prize": 0.15262901655306718,
+    "p_profit": 0.15262901655306718
+   },
+   "promo": {
+    "return_rate": 0.8325219084712755,
+    "payout_mean": 20.813047711781888,
+    "payout_var": 13789.066314664717,
+    "p_any_prize": 0.15262901655306718,
+    "p_profit": 0.15262901655306718
+   }
+  },
+  "4": {
+   "base": {
+    "return_rate": 0.5081627233525967,
+    "payout_mean": 12.704068083814919,
+    "payout_var": 3467.3750376370144,
+    "p_any_prize": 0.25894674945307855,
+    "p_profit": 0.046311283653055806
+   },
+   "promo": {
+    "return_rate": 0.7171941982068565,
+    "payout_mean": 17.92985495517141,
+    "payout_var": 13038.064238362098,
+    "p_any_prize": 0.25894674945307855,
+    "p_profit": 0.046311283653055806
+   }
+  },
+  "5": {
+   "base": {
+    "return_rate": 0.60319427408035,
+    "payout_mean": 15.07985685200875,
+    "payout_var": 39282.53418358831,
+    "p_any_prize": 0.0966723150267454,
+    "p_profit": 0.0966723150267454
+   },
+   "promo": {
+    "return_rate": 0.7160560958029314,
+    "payout_mean": 17.901402395073283,
+    "payout_var": 68735.0886737879,
+    "p_any_prize": 0.0966723150267454,
+    "p_profit": 0.0966723150267454
+   }
+  },
+  "6": {
+   "base": {
+    "return_rate": 0.6109333704270413,
+    "payout_mean": 15.273334260676032,
+    "payout_var": 84700.60467228919,
+    "p_any_prize": 0.16158208879727867,
+    "p_profit": 0.03176254125621214
+   },
+   "promo": {
+    "return_rate": 0.7646834178479748,
+    "payout_mean": 19.11708544619937,
+    "payout_var": 327777.2582468905,
+    "p_any_prize": 0.16158208879727867,
+    "p_profit": 0.03176254125621214
+   }
+  },
+  "7": {
+   "base": {
+    "return_rate": 0.5489746141644876,
+    "payout_mean": 13.724365354112189,
+    "payout_var": 163594.00426509377,
+    "p_any_prize": 0.2365791922753948,
+    "p_profit": 0.06158595082645715
+   },
+   "promo": {
+    "return_rate": 0.5489746141644876,
+    "payout_mean": 13.724365354112189,
+    "payout_var": 163594.00426509377,
+    "p_any_prize": 0.2365791922753948,
+    "p_profit": 0.06158595082645715
+   }
+  },
+  "8": {
+   "base": {
+    "return_rate": 0.6261365139811472,
+    "payout_mean": 15.653412849528682,
+    "payout_var": 1153557.1257058324,
+    "p_any_prize": 0.1906040392948664,
+    "p_profit": 0.020834100078074413
+   },
+   "promo": {
+    "return_rate": 0.6261365139811472,
+    "payout_mean": 15.653412849528682,
+    "payout_var": 1153557.1257058324,
+    "p_any_prize": 0.1906040392948664,
+    "p_profit": 0.020834100078074413
+   }
+  },
+  "9": {
+   "base": {
+    "return_rate": 0.6529924035819649,
+    "payout_mean": 16.32481008954912,
+    "payout_var": 1057126.9963851157,
+    "p_any_prize": 0.21679905419284645,
+    "p_profit": 0.0389460337440223
+   },
+   "promo": {
+    "return_rate": 0.6529924035819649,
+    "payout_mean": 16.32481008954912,
+    "payout_var": 1057126.9963851157,
+    "p_any_prize": 0.21679905419284645,
+    "p_profit": 0.0389460337440223
+   }
+  },
+  "10": {
+   "base": {
+    "return_rate": 0.5921948666628816,
+    "payout_mean": 14.80487166657204,
+    "payout_var": 3283103.7107823165,
+    "p_any_prize": 0.11045057838555081,
+    "p_profit": 0.01323218989152164
+   },
+   "promo": {
+    "return_rate": 0.5921948666628816,
+    "payout_mean": 14.80487166657204,
+    "payout_var": 3283103.7107823165,
+    "p_any_prize": 0.11045057838555081,
+    "p_profit": 0.01323218989152164
+   }
+  }
+ },
+ "strategies": {
+  "random": {
+   "description": "隨機選號（對照組）",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7502242879533049,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      76956,
+      79789,
+      25830,
+      2455
+     ],
+     "z_hits": 0.13029685763299698,
+     "p_hits": 0.8963315661228104,
+     "significant": false,
+     "z_first_half": -0.8269840330324525,
+     "z_second_half": 1.0112516162316332,
+     "base": {
+      "return_rate": 0.5445603415662326,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": -1.8677055800841997,
+      "p_any_prize": 0.15286710263200562,
+      "p_profit": 0.15286710263200562,
+      "total_profit_1x": -2106750.0,
+      "max_drawdown_1x": 2106950.0
+     },
+     "promo": {
+      "return_rate": 0.8099227152353673,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": -2.0696008239329373,
+      "p_any_prize": 0.15286710263200562,
+      "p_profit": 0.15286710263200562,
+      "total_profit_1x": -879250.0,
+      "max_drawdown_1x": 882650.0
+     },
+     "actual": {
+      "return_rate": 0.554288493757769,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": -1.5857995109390366,
+      "total_profit_1x": -2061750.0
+     },
+     "longest_no_prize_streak": 64
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 1.0001729449278496,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      56902,
+      80224,
+      39415,
+      7948,
+      541
+     ],
+     "z_hits": 0.0875800163062789,
+     "p_hits": 0.9302104858146375,
+     "significant": false,
+     "z_first_half": 0.18578527027971517,
+     "z_second_half": -0.06192842342659823,
+     "base": {
+      "return_rate": 0.501794303626439,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": -1.1630338441934962,
+      "p_any_prize": 0.25889855699075826,
+      "p_profit": 0.045879046641085226,
+      "total_profit_1x": -2304575.0,
+      "max_drawdown_1x": 2304625.0
+     },
+     "promo": {
+      "return_rate": 0.7046587039939469,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": -1.180581532997733,
+      "p_any_prize": 0.25889855699075826,
+      "p_profit": 0.045879046641085226,
+      "total_profit_1x": -1366175.0,
+      "max_drawdown_1x": 1366450.0
+     },
+     "actual": {
+      "return_rate": 0.5091985083499972,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": -0.9443119117248749,
+      "total_profit_1x": -2270325.0
+     },
+     "longest_no_prize_streak": 36
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.2497703075176998,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      41967,
+      75253,
+      49839,
+      15688,
+      2165,
+      118
+     ],
+     "z_hits": -0.10472855982828008,
+     "p_hits": 0.9165911991083857,
+     "significant": false,
+     "z_first_half": 0.3354223036800804,
+     "z_second_half": -0.4835308533570362,
+     "base": {
+      "return_rate": 0.5949089336864293,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": -0.4495434664879218,
+      "p_any_prize": 0.09712479057450144,
+      "p_profit": 0.09712479057450144,
+      "total_profit_1x": -1873850.0,
+      "max_drawdown_1x": 1883875.0
+     },
+     "promo": {
+      "return_rate": 0.7054855969302275,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": -0.4335780808143664,
+      "p_any_prize": 0.09712479057450144,
+      "p_profit": 0.09712479057450144,
+      "total_profit_1x": -1362350.0,
+      "max_drawdown_1x": 1384075.0
+     },
+     "actual": {
+      "return_rate": 0.5983029778954765,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": -0.4483700239408137,
+      "total_profit_1x": -1858150.0
+     },
+     "longest_no_prize_streak": 98
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.5004918121385722,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      30740,
+      67363,
+      57062,
+      23939,
+      5321,
+      582,
+      23
+     ],
+     "z_hits": 0.20608279814201236,
+     "p_hits": 0.8367262354636826,
+     "significant": false,
+     "z_first_half": 0.7222073337087277,
+     "z_second_half": -0.43076224560456283,
+     "base": {
+      "return_rate": 0.6095606117926823,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": -0.05072382689020991,
+      "p_any_prize": 0.16140625844457657,
+      "p_profit": 0.032027238826136305,
+      "total_profit_1x": -1806075.0,
+      "max_drawdown_1x": 1806125.0
+     },
+     "promo": {
+      "return_rate": 0.7590282656866454,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": -0.10622236554895632,
+      "p_any_prize": 0.16140625844457657,
+      "p_profit": 0.032027238826136305,
+      "total_profit_1x": -1114675.0,
+      "max_drawdown_1x": 1114725.0
+     },
+     "actual": {
+      "return_rate": 0.6159595741231152,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": 0.010736487106318264,
+      "total_profit_1x": -1776475.0
+     },
+     "longest_no_prize_streak": 79
+    }
+   }
+  },
+  "fixed": {
+   "description": "固定號碼（每期同一組）",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7516510836080635,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      76869,
+      79733,
+      25939,
+      2489
+     ],
+     "z_hits": 0.9591732531778373,
+     "p_hits": 0.33747147237001707,
+     "significant": false,
+     "z_first_half": 0.16761689797034177,
+     "z_second_half": 1.1888589253392783,
+     "base": {
+      "return_rate": 0.5494136086040102,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": -1.0006456074627401,
+      "p_any_prize": 0.15363995027833324,
+      "p_profit": 0.15363995027833324,
+      "total_profit_1x": -2084300.0,
+      "max_drawdown_1x": 2084275.0
+     },
+     "promo": {
+      "return_rate": 0.8184510619899475,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": -1.2885873919127042,
+      "p_any_prize": 0.15363995027833324,
+      "p_profit": 0.15363995027833324,
+      "total_profit_1x": -839800.0,
+      "max_drawdown_1x": 839775.0
+     },
+     "actual": {
+      "return_rate": 0.5590336702156408,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": -0.7723808492190379,
+      "total_profit_1x": -2039800.0
+     },
+     "longest_no_prize_streak": 78
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 1.0018429443873966,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      56901,
+      80117,
+      39370,
+      8054,
+      588
+     ],
+     "z_hits": 0.9332745487635351,
+     "p_hits": 0.3506782325247627,
+     "significant": false,
+     "z_first_half": -0.10837474099652702,
+     "z_second_half": 1.428224265275549,
+     "base": {
+      "return_rate": 0.5140031346268173,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": 1.0666062018537683,
+      "p_any_prize": 0.25948224612225046,
+      "p_profit": 0.04670593957736583,
+      "total_profit_1x": -2248100.0,
+      "max_drawdown_1x": 2248075.0
+     },
+     "promo": {
+      "return_rate": 0.7281738096524887,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": 1.0340498979972323,
+      "p_any_prize": 0.25948224612225046,
+      "p_profit": 0.04670593957736583,
+      "total_profit_1x": -1257400.0,
+      "max_drawdown_1x": 1257375.0
+     },
+     "actual": {
+      "return_rate": 0.5213641031184132,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": 1.1888351893628162,
+      "total_profit_1x": -2214050.0
+     },
+     "longest_no_prize_streak": 41
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.2522509863265416,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      41969,
+      74931,
+      50155,
+      15564,
+      2284,
+      127
+     ],
+     "z_hits": 1.0263398863169828,
+     "p_hits": 0.3047314025777877,
+     "significant": false,
+     "z_first_half": 0.0635995536848138,
+     "z_second_half": 1.387864233149124,
+     "base": {
+      "return_rate": 0.6210236177917094,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": 0.9673790811407249,
+      "p_any_prize": 0.09714640869048262,
+      "p_profit": 0.09714640869048262,
+      "total_profit_1x": -1753050.0,
+      "max_drawdown_1x": 1753025.0
+     },
+     "promo": {
+      "return_rate": 0.739036912933038,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": 0.9426214133135674,
+      "p_any_prize": 0.09714640869048262,
+      "p_profit": 0.09714640869048262,
+      "total_profit_1x": -1207150.0,
+      "max_drawdown_1x": 1207150.0
+     },
+     "actual": {
+      "return_rate": 0.6269902178025185,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": 1.0905124322681494,
+      "total_profit_1x": -1725450.0
+     },
+     "longest_no_prize_streak": 122
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.500691779711398,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      30930,
+      67018,
+      57221,
+      23866,
+      5386,
+      583,
+      26
+     ],
+     "z_hits": 0.2898747050788183,
+     "p_hits": 0.7719120936094375,
+     "significant": false,
+     "z_first_half": -0.2834383549145345,
+     "z_second_half": 0.6933830942259004,
+     "base": {
+      "return_rate": 0.6284062043992866,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": 0.6456262474017357,
+      "p_any_prize": 0.16138464032859537,
+      "p_profit": 0.03240015132681187,
+      "total_profit_1x": -1718900.0,
+      "max_drawdown_1x": 1718875.0
+     },
+     "promo": {
+      "return_rate": 0.7941306815111063,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": 0.5531165061536328,
+      "p_any_prize": 0.16138464032859537,
+      "p_profit": 0.03240015132681187,
+      "total_profit_1x": -952300.0,
+      "max_drawdown_1x": 952275.0
+     },
+     "actual": {
+      "return_rate": 0.6348484029616819,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": 0.6798142538251751,
+      "total_profit_1x": -1689100.0
+     },
+     "longest_no_prize_streak": 59
+    }
+   }
+  },
+  "hot_10": {
+   "description": "熱號：近10期出現最多",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7506836729179052,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      76928,
+      79849,
+      25709,
+      2544
+     ],
+     "z_hits": 0.3971699395318839,
+     "p_hits": 0.6912421477970598,
+     "significant": false,
+     "z_first_half": 0.33190365889491574,
+     "z_second_half": 0.22977945615802212,
+     "base": {
+      "return_rate": 0.5528725071610009,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": -0.3826964064853171,
+      "p_any_prize": 0.1526941577041561,
+      "p_profit": 0.1526941577041561,
+      "total_profit_1x": -2068300.0,
+      "max_drawdown_1x": 2068475.0
+     },
+     "promo": {
+      "return_rate": 0.8278549424417662,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": -0.4273938737154819,
+      "p_any_prize": 0.1526941577041561,
+      "p_profit": 0.1526941577041561,
+      "total_profit_1x": -796300.0,
+      "max_drawdown_1x": 797100.0
+     },
+     "actual": {
+      "return_rate": 0.560763119494136,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": -0.4759184668153938,
+      "total_profit_1x": -2031800.0
+     },
+     "longest_no_prize_streak": 69
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 1.0000054045289952,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      56990,
+      80203,
+      39232,
+      8056,
+      549
+     ],
+     "z_hits": 0.002736875509532563,
+     "p_hits": 0.9978162920122777,
+     "significant": false,
+     "z_first_half": 0.3522179082386532,
+     "z_second_half": -0.3483473817745057,
+     "base": {
+      "return_rate": 0.5048694806247636,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": -0.6014290694255044,
+      "p_any_prize": 0.2585364535480733,
+      "p_profit": 0.046505972004539806,
+      "total_profit_1x": -2290350.0,
+      "max_drawdown_1x": 2290450.0
+     },
+     "promo": {
+      "return_rate": 0.7106307085337512,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": -0.6181435345492307,
+      "p_any_prize": 0.2585364535480733,
+      "p_profit": 0.046505972004539806,
+      "total_profit_1x": -1338550.0,
+      "max_drawdown_1x": 1338750.0
+     },
+     "actual": {
+      "return_rate": 0.5116791871588391,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": -0.5093432225204102,
+      "total_profit_1x": -2258850.0
+     },
+     "longest_no_prize_streak": 36
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.2502188834243095,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      42019,
+      75101,
+      50000,
+      15528,
+      2267,
+      115
+     ],
+     "z_hits": 0.09980015701279946,
+     "p_hits": 0.9205029833959439,
+     "significant": false,
+     "z_first_half": 0.2831486979117599,
+     "z_second_half": -0.14200996233729454,
+     "base": {
+      "return_rate": 0.5993406474625737,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": -0.20908889507743178,
+      "p_any_prize": 0.09679511430578826,
+      "p_profit": 0.09679511430578826,
+      "total_profit_1x": -1853350.0,
+      "max_drawdown_1x": 1853325.0
+     },
+     "promo": {
+      "return_rate": 0.7105009998378641,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": -0.227857537877718,
+      "p_any_prize": 0.09679511430578826,
+      "p_profit": 0.09679511430578826,
+      "total_profit_1x": -1339150.0,
+      "max_drawdown_1x": 1342500.0
+     },
+     "actual": {
+      "return_rate": 0.6032535264551694,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": -0.18280553074424058,
+      "total_profit_1x": -1835250.0
+     },
+     "longest_no_prize_streak": 98
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.5001188996378965,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      30779,
+      67266,
+      57078,
+      24105,
+      5202,
+      578,
+      22
+     ],
+     "z_hits": 0.04982221493538555,
+     "p_hits": 0.9602640637062272,
+     "significant": false,
+     "z_first_half": 0.11049291801750476,
+     "z_second_half": -0.04003366594834936,
+     "base": {
+      "return_rate": 0.5990433983678323,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": -0.43933789186644245,
+      "p_any_prize": 0.16163324866237908,
+      "p_profit": 0.031357077230719343,
+      "total_profit_1x": -1854725.0,
+      "max_drawdown_1x": 1854750.0
+     },
+     "promo": {
+      "return_rate": 0.7429335783386477,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": -0.4085335526052004,
+      "p_any_prize": 0.16163324866237908,
+      "p_profit": 0.031357077230719343,
+      "total_profit_1x": -1189125.0,
+      "max_drawdown_1x": 1205525.0
+     },
+     "actual": {
+      "return_rate": 0.6000378317029671,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": -0.5532415102481173,
+      "total_profit_1x": -1850125.0
+     },
+     "longest_no_prize_streak": 55
+    }
+   }
+  },
+  "hot_50": {
+   "description": "熱號：近50期出現最多",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7518672647678755,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      76898,
+      79838,
+      25602,
+      2692
+     ],
+     "z_hits": 1.0847605858361484,
+     "p_hits": 0.278027706359837,
+     "significant": false,
+     "z_first_half": 0.11877488796573252,
+     "z_second_half": 1.4153082444515326,
+     "base": {
+      "return_rate": 0.5677133437820894,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": 2.268691883958487,
+      "p_any_prize": 0.1529157433929633,
+      "p_profit": 0.1529157433929633,
+      "total_profit_1x": -1999650.0,
+      "max_drawdown_1x": 1999625.0
+     },
+     "promo": {
+      "return_rate": 0.858693184888937,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": 2.396726939407139,
+      "p_any_prize": 0.1529157433929633,
+      "p_profit": 0.1529157433929633,
+      "total_profit_1x": -653650.0,
+      "max_drawdown_1x": 654500.0
+     },
+     "actual": {
+      "return_rate": 0.5770091336540021,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": 2.308975037888838,
+      "total_profit_1x": -1956650.0
+     },
+     "longest_no_prize_streak": 67
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 1.0027671188455927,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      56925,
+      79999,
+      39361,
+      8159,
+      586
+     ],
+     "z_hits": 1.4012802609001251,
+     "p_hits": 0.16113028150598588,
+     "significant": false,
+     "z_first_half": 0.7973284516172435,
+     "z_second_half": 1.1843810980333433,
+     "base": {
+      "return_rate": 0.515792033724261,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": 1.3933042342759174,
+      "p_any_prize": 0.2599902718478085,
+      "p_profit": 0.04726260606388153,
+      "total_profit_1x": -2239825.0,
+      "max_drawdown_1x": 2239850.0
+     },
+     "promo": {
+      "return_rate": 0.7306652975193212,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": 1.2686959769879742,
+      "p_any_prize": 0.2599902718478085,
+      "p_profit": 0.04726260606388153,
+      "total_profit_1x": -1245875.0,
+      "max_drawdown_1x": 1245950.0
+     },
+     "actual": {
+      "return_rate": 0.5216937793871265,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": 1.246641485749466,
+      "total_profit_1x": -2212525.0
+     },
+     "longest_no_prize_streak": 35
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.2551640274550073,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      41713,
+      75066,
+      50116,
+      15719,
+      2292,
+      124
+     ],
+     "z_hits": 2.354544445080155,
+     "p_hits": 0.018545425770800428,
+     "significant": false,
+     "z_first_half": 1.0672527844367106,
+     "z_second_half": 2.262575903005878,
+     "base": {
+      "return_rate": 0.6186996703237313,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": 0.8412870497913181,
+      "p_any_prize": 0.09801113332973031,
+      "p_profit": 0.09801113332973031,
+      "total_profit_1x": -1763800.0,
+      "max_drawdown_1x": 1763925.0
+     },
+     "promo": {
+      "return_rate": 0.7352645516943198,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": 0.7878876428719902,
+      "p_any_prize": 0.09801113332973031,
+      "p_profit": 0.09801113332973031,
+      "total_profit_1x": -1224600.0,
+      "max_drawdown_1x": 1226150.0
+     },
+     "actual": {
+      "return_rate": 0.6202561746743771,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": 0.7292751413042519,
+      "total_profit_1x": -1756600.0
+     },
+     "longest_no_prize_streak": 109
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.504134464681403,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      30642,
+      67164,
+      57142,
+      24129,
+      5319,
+      605,
+      29
+     ],
+     "z_hits": 1.7324542920727186,
+     "p_hits": 0.08319270856266726,
+     "significant": false,
+     "z_first_half": 0.6741669345706822,
+     "z_second_half": 1.7758934214700355,
+     "base": {
+      "return_rate": 0.6479003404853267,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": 1.365940190037538,
+      "p_any_prize": 0.16257904123655623,
+      "p_profit": 0.03217316110900935,
+      "total_profit_1x": -1628725.0,
+      "max_drawdown_1x": 1628700.0
+     },
+     "promo": {
+      "return_rate": 0.8307896016862131,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": 1.2416916511511151,
+      "p_any_prize": 0.16257904123655623,
+      "p_profit": 0.03217316110900935,
+      "total_profit_1x": -782725.0,
+      "max_drawdown_1x": 782700.0
+     },
+     "actual": {
+      "return_rate": 0.6486353564286873,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": 1.1681740200339887,
+      "total_profit_1x": -1625325.0
+     },
+     "longest_no_prize_streak": 77
+    }
+   }
+  },
+  "hot_200": {
+   "description": "熱號：近200期出現最多",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7501107928444036,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      77214,
+      79513,
+      25629,
+      2674
+     ],
+     "z_hits": 0.06436350798739492,
+     "p_hits": 0.9486807861605343,
+     "significant": false,
+     "z_first_half": -0.36076484662491837,
+     "z_second_half": 0.45178859254255566,
+     "base": {
+      "return_rate": 0.5660595579095282,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": 1.9732349222411505,
+      "p_any_prize": 0.152964384153921,
+      "p_profit": 0.152964384153921,
+      "total_profit_1x": -2007300.0,
+      "max_drawdown_1x": 2007300.0
+     },
+     "promo": {
+      "return_rate": 0.8550937685780684,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": 2.067097696235095,
+      "p_any_prize": 0.152964384153921,
+      "p_profit": 0.152964384153921,
+      "total_profit_1x": -670300.0,
+      "max_drawdown_1x": 673600.0
+     },
+     "actual": {
+      "return_rate": 0.5738420796627574,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": 1.766078300112165,
+      "total_profit_1x": -1971300.0
+     },
+     "longest_no_prize_streak": 61
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 1.0002432038047884,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      57152,
+      79923,
+      39294,
+      8080,
+      581
+     ],
+     "z_hits": 0.123159397930652,
+     "p_hits": 0.9019808764893124,
+     "significant": false,
+     "z_first_half": -0.5496147579109301,
+     "z_second_half": 0.7237884487981631,
+     "base": {
+      "return_rate": 0.5126411933200021,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": 0.8178814158405171,
+      "p_any_prize": 0.25917418796951847,
+      "p_profit": 0.04680862562827649,
+      "total_profit_1x": -2254400.0,
+      "max_drawdown_1x": 2254700.0
+     },
+     "promo": {
+      "return_rate": 0.7255796357347457,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": 0.789732939395168,
+      "p_any_prize": 0.25917418796951847,
+      "p_profit": 0.04680862562827649,
+      "total_profit_1x": -1269400.0,
+      "max_drawdown_1x": 1274375.0
+     },
+     "actual": {
+      "return_rate": 0.518748311084689,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": 0.7301753950818554,
+      "total_profit_1x": -2226150.0
+     },
+     "longest_no_prize_streak": 32
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.2507323136788628,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      42075,
+      74785,
+      50439,
+      15279,
+      2337,
+      115
+     ],
+     "z_hits": 0.33389929074656033,
+     "p_hits": 0.7384555550060434,
+     "significant": false,
+     "z_first_half": 0.032235390223821506,
+     "z_second_half": 0.43996951521679295,
+     "base": {
+      "return_rate": 0.6042155326163325,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": 0.055411133474108414,
+      "p_any_prize": 0.0958277036156299,
+      "p_profit": 0.0958277036156299,
+      "total_profit_1x": -1830800.0,
+      "max_drawdown_1x": 1839425.0
+     },
+     "promo": {
+      "return_rate": 0.7168891531103064,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": 0.03417013642305773,
+      "p_any_prize": 0.0958277036156299,
+      "p_profit": 0.0958277036156299,
+      "total_profit_1x": -1309600.0,
+      "max_drawdown_1x": 1323925.0
+     },
+     "actual": {
+      "return_rate": 0.6066583797222073,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": -0.00015746227934859244,
+      "total_profit_1x": -1819500.0
+     },
+     "longest_no_prize_streak": 109
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.5009079608712101,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      30984,
+      66849,
+      57409,
+      23762,
+      5404,
+      588,
+      34
+     ],
+     "z_hits": 0.38046055041600135,
+     "p_hits": 0.7036035749301375,
+     "significant": false,
+     "z_first_half": -0.4691945649149992,
+     "z_second_half": 1.007247035261175,
+     "base": {
+      "return_rate": 0.6729395233205426,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": 2.2911452070133245,
+      "p_any_prize": 0.1609901097119386,
+      "p_profit": 0.032567691725666106,
+      "total_profit_1x": -1512900.0,
+      "max_drawdown_1x": 1513250.0
+     },
+     "promo": {
+      "return_rate": 0.8821164135545587,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": 2.2057780660178534,
+      "p_any_prize": 0.1609901097119386,
+      "p_profit": 0.032567691725666106,
+      "total_profit_1x": -545300.0,
+      "max_drawdown_1x": 694225.0
+     },
+     "actual": {
+      "return_rate": 0.6736313030319409,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": 2.053577359397283,
+      "total_profit_1x": -1509700.0
+     },
+     "longest_no_prize_streak": 56
+    }
+   }
+  },
+  "hot_1000": {
+   "description": "熱號：近1000期出現最多",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7508944495487219,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      76760,
+      80161,
+      25550,
+      2559
+     ],
+     "z_hits": 0.5196175888737807,
+     "p_hits": 0.603330136418488,
+     "significant": false,
+     "z_first_half": -0.04995205568651663,
+     "z_second_half": 0.7848022971194244,
+     "base": {
+      "return_rate": 0.5527752256390855,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": -0.40007622776280455,
+      "p_any_prize": 0.15191590552883316,
+      "p_profit": 0.15191590552883316,
+      "total_profit_1x": -2068750.0,
+      "max_drawdown_1x": 2068750.0
+     },
+     "promo": {
+      "return_rate": 0.8293790196184402,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": -0.2878211311111082,
+      "p_any_prize": 0.15191590552883316,
+      "p_profit": 0.15191590552883316,
+      "total_profit_1x": -789250.0,
+      "max_drawdown_1x": 792325.0
+     },
+     "actual": {
+      "return_rate": 0.5615305626114684,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": -0.3443632846237767,
+      "total_profit_1x": -2028250.0
+     },
+     "longest_no_prize_streak": 68
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 1.000437766848619,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      56792,
+      80560,
+      39069,
+      8023,
+      586
+     ],
+     "z_hits": 0.22168691627517362,
+     "p_hits": 0.8245576160061892,
+     "significant": false,
+     "z_first_half": -0.4064052787369565,
+     "z_second_half": 0.7199179223340554,
+     "base": {
+      "return_rate": 0.5112738474841918,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": 0.5681696267081809,
+      "p_any_prize": 0.2576771334378209,
+      "p_profit": 0.046527590120521,
+      "total_profit_1x": -2260725.0,
+      "max_drawdown_1x": 2260700.0
+     },
+     "promo": {
+      "return_rate": 0.7246770793925309,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": 0.7047309975481992,
+      "p_any_prize": 0.2576771334378209,
+      "p_profit": 0.046527590120521,
+      "total_profit_1x": -1273575.0,
+      "max_drawdown_1x": 1274900.0
+     },
+     "actual": {
+      "return_rate": 0.5176511916986435,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": 0.5378036218607086,
+      "total_profit_1x": -2231225.0
+     },
+     "longest_no_prize_streak": 35
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.2522726044425228,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      41719,
+      75518,
+      49776,
+      15581,
+      2285,
+      151
+     ],
+     "z_hits": 1.036196691947843,
+     "p_hits": 0.3001103897587289,
+     "significant": false,
+     "z_first_half": 0.9627055729000695,
+     "z_second_half": 0.5026978421387776,
+     "base": {
+      "return_rate": 0.6602280711236016,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": 3.0945223262769366,
+      "p_any_prize": 0.09737339890828514,
+      "p_profit": 0.09737339890828514,
+      "total_profit_1x": -1571700.0,
+      "max_drawdown_1x": 1571675.0
+     },
+     "promo": {
+      "return_rate": 0.7912338539696266,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": 3.0836224948676207,
+      "p_any_prize": 0.09737339890828514,
+      "p_profit": 0.09737339890828514,
+      "total_profit_1x": -965700.0,
+      "max_drawdown_1x": 969225.0
+     },
+     "actual": {
+      "return_rate": 0.664443603739934,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": 3.0996411853819614,
+      "total_profit_1x": -1552200.0
+     },
+     "longest_no_prize_streak": 94
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.5030535588823435,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      30552,
+      67495,
+      56954,
+      24067,
+      5328,
+      610,
+      24
+     ],
+     "z_hits": 1.2795250653870827,
+     "p_hits": 0.2007122187461306,
+     "significant": false,
+     "z_first_half": 0.7318154135363368,
+     "z_second_half": 1.0777062873303305,
+     "base": {
+      "return_rate": 0.6220126465978489,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": 0.40938244531186546,
+      "p_any_prize": 0.16229260119980543,
+      "p_profit": 0.03222180186996703,
+      "total_profit_1x": -1748475.0,
+      "max_drawdown_1x": 1748450.0
+     },
+     "promo": {
+      "return_rate": 0.778095443982057,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": 0.2519219823135133,
+      "p_any_prize": 0.16229260119980543,
+      "p_profit": 0.03222180186996703,
+      "total_profit_1x": -1026475.0,
+      "max_drawdown_1x": 1026450.0
+     },
+     "actual": {
+      "return_rate": 0.6228773712370966,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": 0.2557778437301056,
+      "total_profit_1x": -1744475.0
+     },
+     "longest_no_prize_streak": 54
+    }
+   }
+  },
+  "cold_50": {
+   "description": "冷號：近50期出現最少",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7496568124087986,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      77006,
+      79849,
+      25665,
+      2510
+     ],
+     "z_hits": -0.19936989059507776,
+     "p_hits": 0.8419734115006365,
+     "significant": false,
+     "z_first_half": -0.10767443114652181,
+     "z_second_half": -0.17427717206187732,
+     "base": {
+      "return_rate": 0.548721828892612,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": -1.124235447658227,
+      "p_any_prize": 0.15227260444252283,
+      "p_profit": 0.15227260444252283,
+      "total_profit_1x": -2087500.0,
+      "max_drawdown_1x": 2087475.0
+     },
+     "promo": {
+      "return_rate": 0.8200291844565746,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": -1.144065261272713,
+      "p_any_prize": 0.15227260444252283,
+      "p_profit": 0.15227260444252283,
+      "total_profit_1x": -832500.0,
+      "max_drawdown_1x": 832475.0
+     },
+     "actual": {
+      "return_rate": 0.5563962600659352,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": -1.2244859823845953,
+      "total_profit_1x": -2052000.0
+     },
+     "longest_no_prize_streak": 64
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 1.0012214235529373,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      56929,
+      80065,
+      39462,
+      8029,
+      545
+     ],
+     "z_hits": 0.618533865162905,
+     "p_hits": 0.536223481580932,
+     "significant": false,
+     "z_first_half": 0.19739684967219737,
+     "z_second_half": 0.6773421312282343,
+     "base": {
+      "return_rate": 0.5046641085229422,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": -0.638935187951313,
+      "p_any_prize": 0.2596119548181376,
+      "p_profit": 0.046338431605685564,
+      "total_profit_1x": -2291300.0,
+      "max_drawdown_1x": 2291275.0
+     },
+     "promo": {
+      "return_rate": 0.7092687672269362,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": -0.7464099378153067,
+      "p_any_prize": 0.2596119548181376,
+      "p_profit": 0.046338431605685564,
+      "total_profit_1x": -1344850.0,
+      "max_drawdown_1x": 1344825.0
+     },
+     "actual": {
+      "return_rate": 0.5106739447657137,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": -0.6856050442895397,
+      "total_profit_1x": -2263500.0
+     },
+     "longest_no_prize_streak": 32
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.249300113495109,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      42052,
+      75265,
+      49708,
+      15652,
+      2244,
+      109
+     ],
+     "z_hits": -0.31911408230021965,
+     "p_hits": 0.7496400053725363,
+     "significant": false,
+     "z_first_half": 0.12284297355555317,
+     "z_second_half": -0.5741384366888395,
+     "base": {
+      "return_rate": 0.5884667351240339,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": -0.7990823068797573,
+      "p_any_prize": 0.09730854456034156,
+      "p_profit": 0.09730854456034156,
+      "total_profit_1x": -1903650.0,
+      "max_drawdown_1x": 1903625.0
+     },
+     "promo": {
+      "return_rate": 0.6958871534345782,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": -0.8272846371241598,
+      "p_any_prize": 0.09730854456034156,
+      "p_profit": 0.09730854456034156,
+      "total_profit_1x": -1406750.0,
+      "max_drawdown_1x": 1406725.0
+     },
+     "actual": {
+      "return_rate": 0.5908879641139275,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": -0.8461369285976896,
+      "total_profit_1x": -1892450.0
+     },
+     "longest_no_prize_streak": 97
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.4984921364103119,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      30897,
+      67366,
+      56927,
+      23923,
+      5324,
+      577,
+      16
+     ],
+     "z_hits": -0.6318362712265122,
+     "p_hits": 0.5274938698181211,
+     "significant": false,
+     "z_first_half": -0.20977640956948748,
+     "z_second_half": -0.6837750143982912,
+     "base": {
+      "return_rate": 0.5706912392584986,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": -1.486958336298771,
+      "p_any_prize": 0.1612711452196941,
+      "p_profit": 0.031978598065178616,
+      "total_profit_1x": -1985875.0,
+      "max_drawdown_1x": 1985850.0
+     },
+     "promo": {
+      "return_rate": 0.6821110090255634,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": -1.550981537538367,
+      "p_any_prize": 0.1612711452196941,
+      "p_profit": 0.031978598065178616,
+      "total_profit_1x": -1470475.0,
+      "max_drawdown_1x": 1518950.0
+     },
+     "actual": {
+      "return_rate": 0.5765713668053829,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": -1.3844677371703709,
+      "total_profit_1x": -1958675.0
+     },
+     "longest_no_prize_streak": 67
+    }
+   }
+  },
+  "cold_200": {
+   "description": "冷號：近200期出現最少",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7519429281738097,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      76872,
+      79710,
+      25922,
+      2526
+     ],
+     "z_hits": 1.1287161522665927,
+     "p_hits": 0.2590175932673617,
+     "significant": false,
+     "z_first_half": 0.7492808352978862,
+     "z_second_half": 0.8469648553070591,
+     "base": {
+      "return_rate": 0.5532292060746906,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": -0.3189703951345173,
+      "p_any_prize": 0.1537480408582392,
+      "p_profit": 0.1537480408582392,
+      "total_profit_1x": -2066650.0,
+      "max_drawdown_1x": 2066775.0
+     },
+     "promo": {
+      "return_rate": 0.8262660109171486,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": -0.5729058819625941,
+      "p_any_prize": 0.1537480408582392,
+      "p_profit": 0.1537480408582392,
+      "total_profit_1x": -803650.0,
+      "max_drawdown_1x": 808250.0
+     },
+     "actual": {
+      "return_rate": 0.5616602713073555,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": -0.3221286059435034,
+      "total_profit_1x": -2027650.0
+     },
+     "longest_no_prize_streak": 60
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 1.0029508728314327,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      56838,
+      80003,
+      39583,
+      8017,
+      589
+     ],
+     "z_hits": 1.4943340282254691,
+     "p_hits": 0.13508833532490866,
+     "significant": false,
+     "z_first_half": 1.2308274156033516,
+     "z_second_half": 0.8824800338288061,
+     "base": {
+      "return_rate": 0.5145706101713236,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": 1.1702415293592747,
+      "p_any_prize": 0.2604388477544182,
+      "p_profit": 0.046511376533535105,
+      "total_profit_1x": -2245475.0,
+      "max_drawdown_1x": 2246975.0
+     },
+     "promo": {
+      "return_rate": 0.728557531211155,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": 1.0701884481237962,
+      "p_any_prize": 0.2604388477544182,
+      "p_profit": 0.046511376533535105,
+      "total_profit_1x": -1255625.0,
+      "max_drawdown_1x": 1260425.0
+     },
+     "actual": {
+      "return_rate": 0.5208831000378317,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": 1.1044948552904907,
+      "total_profit_1x": -2216275.0
+     },
+     "longest_no_prize_streak": 41
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.2519375236448143,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      41915,
+      75037,
+      50087,
+      15656,
+      2208,
+      127
+     ],
+     "z_hits": 0.8834162046689557,
+     "p_hits": 0.3770114386022117,
+     "significant": false,
+     "z_first_half": 1.0045244575147259,
+     "z_second_half": 0.24481472034834872,
+     "base": {
+      "return_rate": 0.6138031670539913,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": 0.575614072110949,
+      "p_any_prize": 0.0972328811544074,
+      "p_profit": 0.0972328811544074,
+      "total_profit_1x": -1786450.0,
+      "max_drawdown_1x": 1794450.0
+     },
+     "promo": {
+      "return_rate": 0.7301734853807491,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": 0.5790635572617301,
+      "p_any_prize": 0.0972328811544074,
+      "p_profit": 0.0972328811544074,
+      "total_profit_1x": -1248150.0,
+      "max_drawdown_1x": 1276975.0
+     },
+     "actual": {
+      "return_rate": 0.6183645895260228,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": 0.6278039921570896,
+      "total_profit_1x": -1765350.0
+     },
+     "longest_no_prize_streak": 97
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.5044317137761445,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      30634,
+      67088,
+      57217,
+      24139,
+      5362,
+      562,
+      28
+     ],
+     "z_hits": 1.8570098294113222,
+     "p_hits": 0.06330975564734019,
+     "significant": false,
+     "z_first_half": 1.6990287828491626,
+     "z_second_half": 0.9271797033644107,
+     "base": {
+      "return_rate": 0.6351132248824515,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": 0.8934525858578003,
+      "p_any_prize": 0.16262768199751393,
+      "p_profit": 0.03216775658001405,
+      "total_profit_1x": -1687875.0,
+      "max_drawdown_1x": 1715800.0
+     },
+     "promo": {
+      "return_rate": 0.8107387991136572,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": 0.8650716028036778,
+      "p_any_prize": 0.16262768199751393,
+      "p_profit": 0.03216775658001405,
+      "total_profit_1x": -875475.0,
+      "max_drawdown_1x": 991975.0
+     },
+     "actual": {
+      "return_rate": 0.6411662973571853,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": 0.9036059303042434,
+      "total_profit_1x": -1659875.0
+     },
+     "longest_no_prize_streak": 57
+    }
+   }
+  },
+  "cold_1000": {
+   "description": "冷號：近1000期出現最少",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7498027346916716,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      77126,
+      79591,
+      25794,
+      2519
+     ],
+     "z_hits": -0.11459844105073226,
+     "p_hits": 0.908763415430529,
+     "significant": false,
+     "z_first_half": 0.5716735261902411,
+     "z_second_half": -0.7337401957509548,
+     "base": {
+      "return_rate": 0.5510890125925525,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": -0.7013264632393036,
+      "p_any_prize": 0.15301842944387398,
+      "p_profit": 0.15301842944387398,
+      "total_profit_1x": -2076550.0,
+      "max_drawdown_1x": 2076975.0
+     },
+     "promo": {
+      "return_rate": 0.8233691833756689,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": -0.8381930806716228,
+      "p_any_prize": 0.15301842944387398,
+      "p_profit": 0.15301842944387398,
+      "total_profit_1x": -817050.0,
+      "max_drawdown_1x": 827400.0
+     },
+     "actual": {
+      "return_rate": 0.5595200778252175,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": -0.689000804168013,
+      "total_profit_1x": -2037550.0
+     },
+     "longest_no_prize_streak": 68
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 0.9988110036210345,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      57182,
+      79949,
+      39379,
+      7977,
+      543
+     ],
+     "z_hits": -0.6021126121054847,
+     "p_hits": 0.5470991798445346,
+     "significant": false,
+     "z_first_half": 0.08128105574737539,
+     "z_second_half": -0.9327968778628823,
+     "base": {
+      "return_rate": 0.5026590282656866,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": -1.0051133451374792,
+      "p_any_prize": 0.25887153434578175,
+      "p_profit": 0.04604658703993947,
+      "total_profit_1x": -2300575.0,
+      "max_drawdown_1x": 2301475.0
+     },
+     "promo": {
+      "return_rate": 0.7062692536345457,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": -1.0289014211989473,
+      "p_any_prize": 0.25887153434578175,
+      "p_profit": 0.04604658703993947,
+      "total_profit_1x": -1358725.0,
+      "max_drawdown_1x": 1361400.0
+     },
+     "actual": {
+      "return_rate": 0.5091336540020537,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": -0.9556836421615931,
+      "total_profit_1x": -2270625.0
+     },
+     "longest_no_prize_streak": 36
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.2474625736367075,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      42332,
+      74868,
+      49957,
+      15563,
+      2203,
+      107
+     ],
+     "z_hits": -1.156942560926359,
+     "p_hits": 0.24729582845110185,
+     "significant": false,
+     "z_first_half": -0.3476194783594029,
+     "z_second_half": -1.288544382189315,
+     "base": {
+      "return_rate": 0.5798302977895476,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": -1.267675483848003,
+      "p_any_prize": 0.09659514673296223,
+      "p_profit": 0.09659514673296223,
+      "total_profit_1x": -1943600.0,
+      "max_drawdown_1x": 1950000.0
+     },
+     "promo": {
+      "return_rate": 0.6852834675458034,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": -1.2622239746691026,
+      "p_any_prize": 0.09659514673296223,
+      "p_profit": 0.09659514673296223,
+      "total_profit_1x": -1455800.0,
+      "max_drawdown_1x": 1465100.0
+     },
+     "actual": {
+      "return_rate": 0.5829649246068205,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": -1.2711560847398033,
+      "total_profit_1x": -1929100.0
+     },
+     "longest_no_prize_streak": 111
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.4961411662973572,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      31017,
+      67449,
+      56737,
+      24016,
+      5221,
+      564,
+      26
+     ],
+     "z_hits": -1.6169573392678893,
+     "p_hits": 0.1058874898749811,
+     "significant": false,
+     "z_first_half": -0.6293292287085283,
+     "z_second_half": -1.6573937702628345,
+     "base": {
+      "return_rate": 0.6179754634383613,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": 0.2602073648713486,
+      "p_any_prize": 0.16120088634275523,
+      "p_profit": 0.031405717991677025,
+      "total_profit_1x": -1767150.0,
+      "max_drawdown_1x": 1790775.0
+     },
+     "promo": {
+      "return_rate": 0.7828784521428958,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": 0.3417626137926178,
+      "p_any_prize": 0.16120088634275523,
+      "p_profit": 0.031405717991677025,
+      "total_profit_1x": -1004350.0,
+      "max_drawdown_1x": 1165950.0
+     },
+     "actual": {
+      "return_rate": 0.6186672431497595,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": 0.10664720559734753,
+      "total_profit_1x": -1763950.0
+     },
+     "longest_no_prize_streak": 59
+    }
+   }
+  },
+  "overdue": {
+   "description": "遺漏：最久沒開的號碼",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7520564232827109,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      76831,
+      79848,
+      25748,
+      2603
+     ],
+     "z_hits": 1.1946495019121948,
+     "p_hits": 0.23222399996313298,
+     "significant": false,
+     "z_first_half": 0.9668497889547447,
+     "z_second_half": 0.722639738931744,
+     "base": {
+      "return_rate": 0.5596714046370859,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": 0.831959991685954,
+      "p_any_prize": 0.1532238015456953,
+      "p_profit": 0.1532238015456953,
+      "total_profit_1x": -2036850.0,
+      "max_drawdown_1x": 2036825.0
+     },
+     "promo": {
+      "return_rate": 0.8410311841323029,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": 0.779266929367758,
+      "p_any_prize": 0.1532238015456953,
+      "p_profit": 0.1532238015456953,
+      "total_profit_1x": -735350.0,
+      "max_drawdown_1x": 736950.0
+     },
+     "actual": {
+      "return_rate": 0.5683186510295628,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": 0.8192515663105265,
+      "total_profit_1x": -1996850.0
+     },
+     "longest_no_prize_streak": 61
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 1.0022374750040535,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      56945,
+      79975,
+      39442,
+      8087,
+      581
+     ],
+     "z_hits": 1.1330664609622234,
+     "p_hits": 0.2571863445365688,
+     "significant": false,
+     "z_first_half": 0.6773421312282343,
+     "z_second_half": 0.9250558249345476,
+     "base": {
+      "return_rate": 0.5135923904231746,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": 0.9915939648021512,
+      "p_any_prize": 0.26001188996378966,
+      "p_profit": 0.04684645733124358,
+      "total_profit_1x": -2250000.0,
+      "max_drawdown_1x": 2249975.0
+     },
+     "promo": {
+      "return_rate": 0.7266064962438523,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": 0.8864417355084848,
+      "p_any_prize": 0.26001188996378966,
+      "p_profit": 0.04684645733124358,
+      "total_profit_1x": -1264650.0,
+      "max_drawdown_1x": 1264675.0
+     },
+     "actual": {
+      "return_rate": 0.5186186023888019,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": 0.7074319342084193,
+      "total_profit_1x": -2226750.0
+     },
+     "longest_no_prize_streak": 38
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.2523374587904663,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      41876,
+      75040,
+      50107,
+      15669,
+      2231,
+      107
+     ],
+     "z_hits": 1.0657671088405243,
+     "p_hits": 0.2865289327004882,
+     "significant": false,
+     "z_first_half": 1.2589226722539095,
+     "z_second_half": 0.24829962739959396,
+     "base": {
+      "return_rate": 0.5840025941739178,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": -1.0412963019834947,
+      "p_any_prize": 0.09731935361833216,
+      "p_profit": 0.09731935361833216,
+      "total_profit_1x": -1924300.0,
+      "max_drawdown_1x": 1924275.0
+     },
+     "promo": {
+      "return_rate": 0.6900610711776468,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": -1.0662574229923818,
+      "p_any_prize": 0.09731935361833216,
+      "p_profit": 0.09731935361833216,
+      "total_profit_1x": -1433700.0,
+      "max_drawdown_1x": 1433675.0
+     },
+     "actual": {
+      "return_rate": 0.5854726260606388,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": -1.1366343327275654,
+      "total_profit_1x": -1917500.0
+     },
+     "longest_no_prize_streak": 109
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.502648219207696,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      30713,
+      67063,
+      57171,
+      24278,
+      5256,
+      522,
+      27
+     ],
+     "z_hits": 1.1096766053798877,
+     "p_hits": 0.2671384075189874,
+     "significant": false,
+     "z_first_half": 0.911166236985084,
+     "z_second_half": 0.6581534681913556,
+     "base": {
+      "return_rate": 0.6172296384370103,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": 0.23264891627591372,
+      "p_any_prize": 0.16258444576555153,
+      "p_profit": 0.031373290817705235,
+      "total_profit_1x": -1770600.0,
+      "max_drawdown_1x": 1795625.0
+     },
+     "promo": {
+      "return_rate": 0.7857212343944225,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": 0.39515941849093317,
+      "p_any_prize": 0.16258444576555153,
+      "p_profit": 0.031373290817705235,
+      "total_profit_1x": -991200.0,
+      "max_drawdown_1x": 1190675.0
+     },
+     "actual": {
+      "return_rate": 0.6175322920607469,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": 0.06644510802625742,
+      "total_profit_1x": -1769200.0
+     },
+     "longest_no_prize_streak": 54
+    }
+   }
+  },
+  "repeat": {
+   "description": "連莊：上期號碼中近100期最熱",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7502891423012484,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      77039,
+      79730,
+      25687,
+      2574
+     ],
+     "z_hits": 0.16797305743048385,
+     "p_hits": 0.8666044749510498,
+     "significant": false,
+     "z_first_half": 0.42514749617641345,
+     "z_second_half": -0.18759772024494842,
+     "base": {
+      "return_rate": 0.5558774252823866,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": 0.15414696186383123,
+      "p_any_prize": 0.15273739393611846,
+      "p_profit": 0.15273739393611846,
+      "total_profit_1x": -2054400.0,
+      "max_drawdown_1x": 2054375.0
+     },
+     "promo": {
+      "return_rate": 0.8341025779603308,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": 0.1447553832017578,
+      "p_any_prize": 0.15273739393611846,
+      "p_profit": 0.15273739393611846,
+      "total_profit_1x": -767400.0,
+      "max_drawdown_1x": 775375.0
+     },
+     "actual": {
+      "return_rate": 0.563227584715992,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": -0.0534595718902009,
+      "total_profit_1x": -2020400.0
+     },
+     "longest_no_prize_streak": 64
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 1.00081608387829,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      57081,
+      79978,
+      39292,
+      8097,
+      582
+     ],
+     "z_hits": 0.4132682019451517,
+     "p_hits": 0.6794101242413724,
+     "significant": false,
+     "z_first_half": 1.0992295158218601,
+     "z_second_half": -0.5147800197334437,
+     "base": {
+      "return_rate": 0.5132140733935038,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": 0.9225037464651341,
+      "p_any_prize": 0.2592606604334432,
+      "p_profit": 0.04690590715019186,
+      "total_profit_1x": -2251750.0,
+      "max_drawdown_1x": 2251750.0
+     },
+     "promo": {
+      "return_rate": 0.7265524509538994,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": 0.8813517988709538,
+      "p_any_prize": 0.2592606604334432,
+      "p_profit": 0.04690590715019186,
+      "total_profit_1x": -1264900.0,
+      "max_drawdown_1x": 1267575.0
+     },
+     "actual": {
+      "return_rate": 0.5188780197805761,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": 0.7529188559552915,
+      "total_profit_1x": -2225550.0
+     },
+     "longest_no_prize_streak": 42
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.2507539317948442,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      42001,
+      75057,
+      50017,
+      15608,
+      2223,
+      124
+     ],
+     "z_hits": 0.3437560963775216,
+     "p_hits": 0.7310297202415776,
+     "significant": false,
+     "z_first_half": 1.1508905536660232,
+     "z_second_half": -0.6647460200205711,
+     "base": {
+      "return_rate": 0.6100416148732638,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": 0.37152092369423945,
+      "p_any_prize": 0.09703831811057666,
+      "p_profit": 0.09703831811057666,
+      "total_profit_1x": -1803850.0,
+      "max_drawdown_1x": 1803825.0
+     },
+     "promo": {
+      "return_rate": 0.7251148462411501,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": 0.37156956136872965,
+      "p_any_prize": 0.09703831811057666,
+      "p_profit": 0.09703831811057666,
+      "total_profit_1x": -1271550.0,
+      "max_drawdown_1x": 1271775.0
+     },
+     "actual": {
+      "return_rate": 0.6130465329946495,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": 0.34252510426906785,
+      "total_profit_1x": -1789950.0
+     },
+     "longest_no_prize_streak": 80
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.500378317029671,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      30725,
+      67495,
+      56832,
+      24062,
+      5335,
+      556,
+      25
+     ],
+     "z_hits": 0.15852522934002383,
+     "p_hits": 0.8740429418767364,
+     "significant": false,
+     "z_first_half": 1.007247035261175,
+     "z_second_half": -0.783058505950274,
+     "base": {
+      "return_rate": 0.6160190239420635,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": 0.1879163620340457,
+      "p_any_prize": 0.16201697022104525,
+      "p_profit": 0.031973193536183324,
+      "total_profit_1x": -1776200.0,
+      "max_drawdown_1x": 1782600.0
+     },
+     "promo": {
+      "return_rate": 0.7751715937956007,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": 0.19700245504775374,
+      "p_any_prize": 0.16201697022104525,
+      "p_profit": 0.031973193536183324,
+      "total_profit_1x": -1040000.0,
+      "max_drawdown_1x": 1072400.0
+     },
+     "actual": {
+      "return_rate": 0.6169269848132736,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": 0.04500398932167603,
+      "total_profit_1x": -1772000.0
+     },
+     "longest_no_prize_streak": 58
+    }
+   }
+  },
+  "follow": {
+   "description": "拖號：上期號碼的下期跟隨機率",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7507269091498676,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      77013,
+      79707,
+      25730,
+      2580
+     ],
+     "z_hits": 0.4222874060635848,
+     "p_hits": 0.6728152494688857,
+     "significant": false,
+     "z_first_half": 0.9002470480393892,
+     "z_second_half": -0.3030424711649132,
+     "base": {
+      "return_rate": 0.556990758255418,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": 0.3530493609284431,
+      "p_any_prize": 0.15300221585688809,
+      "p_profit": 0.15300221585688809,
+      "total_profit_1x": -2049250.0,
+      "max_drawdown_1x": 2050050.0
+     },
+     "promo": {
+      "return_rate": 0.8358644544127979,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": 0.3061054331628436,
+      "p_any_prize": 0.15300221585688809,
+      "p_profit": 0.15300221585688809,
+      "total_profit_1x": -759250.0,
+      "max_drawdown_1x": 763450.0
+     },
+     "actual": {
+      "return_rate": 0.5647732800086472,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": 0.21150368238305603,
+      "total_profit_1x": -2013250.0
+     },
+     "longest_no_prize_streak": 64
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 0.9999513592390423,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      57204,
+      79769,
+      39488,
+      8000,
+      569
+     ],
+     "z_hits": -0.0246318795861304,
+     "p_hits": 0.9803485907763518,
+     "significant": false,
+     "z_first_half": 0.7005652900131987,
+     "z_second_half": -0.7354000281906452,
+     "base": {
+      "return_rate": 0.5093660487488516,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": 0.21975752566582768,
+      "p_any_prize": 0.25972544992703883,
+      "p_profit": 0.04631140896070907,
+      "total_profit_1x": -2269550.0,
+      "max_drawdown_1x": 2270000.0
+     },
+     "promo": {
+      "return_rate": 0.7188455926066044,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": 0.1555268343573176,
+      "p_any_prize": 0.25972544992703883,
+      "p_profit": 0.04631140896070907,
+      "total_profit_1x": -1300550.0,
+      "max_drawdown_1x": 1302650.0
+     },
+     "actual": {
+      "return_rate": 0.5153975031076041,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": 0.14263598918475703,
+      "total_profit_1x": -2241650.0
+     },
+     "longest_no_prize_streak": 39
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.248484029616819,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      42164,
+      74988,
+      50081,
+      15445,
+      2238,
+      114
+     ],
+     "z_hits": -0.6912084948665271,
+     "p_hits": 0.4894345262168707,
+     "significant": false,
+     "z_first_half": -0.5636837155351754,
+     "z_second_half": -0.41383271233263275,
+     "base": {
+      "return_rate": 0.5936875101334919,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": -0.5158150922669086,
+      "p_any_prize": 0.09618440252931958,
+      "p_profit": 0.09618440252931958,
+      "total_profit_1x": -1879500.0,
+      "max_drawdown_1x": 1879600.0
+     },
+     "promo": {
+      "return_rate": 0.703680484245798,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": -0.507619741741997,
+      "p_any_prize": 0.09618440252931958,
+      "p_profit": 0.09618440252931958,
+      "total_profit_1x": -1370700.0,
+      "max_drawdown_1x": 1370900.0
+     },
+     "actual": {
+      "return_rate": 0.5967789007188024,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": -0.5301267783965273,
+      "total_profit_1x": -1865200.0
+     },
+     "longest_no_prize_streak": 96
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.4975247257201534,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      31014,
+      67300,
+      56771,
+      24117,
+      5265,
+      544,
+      19
+     ],
+     "z_hits": -1.0372079291102527,
+     "p_hits": 0.29963896355135256,
+     "significant": false,
+     "z_first_half": -0.33788414060429756,
+     "z_second_half": -1.1289493797442678,
+     "base": {
+      "return_rate": 0.5782683889099065,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": -1.2069804744813633,
+      "p_any_prize": 0.1618386207642004,
+      "p_profit": 0.031497594984597095,
+      "total_profit_1x": -1950825.0,
+      "max_drawdown_1x": 1951775.0
+     },
+     "promo": {
+      "return_rate": 0.7044749500081068,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": -1.1309131385999058,
+      "p_any_prize": 0.1618386207642004,
+      "p_profit": 0.031497594984597095,
+      "total_profit_1x": -1367025.0,
+      "max_drawdown_1x": 1400550.0
+     },
+     "actual": {
+      "return_rate": 0.5841052802248284,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": -1.1176023847222776,
+      "total_profit_1x": -1923825.0
+     },
+     "longest_no_prize_streak": 61
+    }
+   }
+  },
+  "logit": {
+   "description": "機器學習：Logistic 綜合以上特徵",
+   "games": {
+    "3": {
+     "n_draws": 185030,
+     "avg_hits": 0.7504783008160839,
+     "expected_hits": 0.75,
+     "hit_distribution": [
+      77077,
+      79679,
+      25640,
+      2634
+     ],
+     "z_hits": 0.27786197350653025,
+     "p_hits": 0.7811183155544288,
+     "significant": false,
+     "z_first_half": 0.49619041981948975,
+     "z_second_half": -0.10323424841880104,
+     "base": {
+      "return_rate": 0.5618548343511862,
+      "theoretical_return_rate": 0.555014605647517,
+      "z_return": 1.2220404248029528,
+      "p_any_prize": 0.15280765281305733,
+      "p_profit": 0.15280765281305733,
+      "total_profit_1x": -2026750.0,
+      "max_drawdown_1x": 2027300.0
+     },
+     "promo": {
+      "return_rate": 0.8465654218234882,
+      "theoretical_return_rate": 0.8325219084712755,
+      "z_return": 1.2860842642148616,
+      "p_any_prize": 0.15280765281305733,
+      "p_profit": 0.15280765281305733,
+      "total_profit_1x": -709750.0,
+      "max_drawdown_1x": 711800.0
+     },
+     "actual": {
+      "return_rate": 0.571042533643193,
+      "theoretical_return_rate": 0.5635394476150369,
+      "z_return": 1.286179818596266,
+      "total_profit_1x": -1984250.0
+     },
+     "longest_no_prize_streak": 61
+    },
+    "4": {
+     "n_draws": 185030,
+     "avg_hits": 1.0007296114143653,
+     "expected_hits": 1.0,
+     "hit_distribution": [
+      57039,
+      80080,
+      39218,
+      8123,
+      570
+     ],
+     "z_hits": 0.3694781937920685,
+     "p_hits": 0.711771323967352,
+     "significant": false,
+     "z_first_half": 0.13159789978149142,
+     "z_second_half": 0.39092317288028705,
+     "base": {
+      "return_rate": 0.5107820353456196,
+      "theoretical_return_rate": 0.5081627233525967,
+      "z_return": 0.47835234287007034,
+      "p_any_prize": 0.2589363886937253,
+      "p_profit": 0.046981570556126034,
+      "total_profit_1x": -2263000.0,
+      "max_drawdown_1x": 2262975.0
+     },
+     "promo": {
+      "return_rate": 0.7218072744960277,
+      "theoretical_return_rate": 0.7171941982068565,
+      "z_return": 0.43445536209467317,
+      "p_any_prize": 0.2589363886937253,
+      "p_profit": 0.046981570556126034,
+      "total_profit_1x": -1286850.0,
+      "max_drawdown_1x": 1286900.0
+     },
+     "actual": {
+      "return_rate": 0.5176457871696482,
+      "theoretical_return_rate": 0.514584032886573,
+      "z_return": 0.5368559776576488,
+      "total_profit_1x": -2231250.0
+     },
+     "longest_no_prize_streak": 48
+    },
+    "5": {
+     "n_draws": 185030,
+     "avg_hits": 1.2521428957466356,
+     "expected_hits": 1.25,
+     "hit_distribution": [
+      42135,
+      74616,
+      50313,
+      15539,
+      2310,
+      117
+     ],
+     "z_hits": 0.9770558581624803,
+     "p_hits": 0.32854149941409977,
+     "significant": false,
+     "z_first_half": 0.5619412620095169,
+     "z_second_half": 0.8198243837999458,
+     "base": {
+      "return_rate": 0.6073501594336054,
+      "theoretical_return_rate": 0.60319427408035,
+      "z_return": 0.22548875715469902,
+      "p_any_prize": 0.09709776792952494,
+      "p_profit": 0.09709776792952494,
+      "total_profit_1x": -1816300.0,
+      "max_drawdown_1x": 1819000.0
+     },
+     "promo": {
+      "return_rate": 0.7205209965951467,
+      "theoretical_return_rate": 0.7160560958029314,
+      "z_return": 0.18314018475649216,
+      "p_any_prize": 0.09709776792952494,
+      "p_profit": 0.09709776792952494,
+      "total_profit_1x": -1292800.0,
+      "max_drawdown_1x": 1307075.0
+     },
+     "actual": {
+      "return_rate": 0.6097713884234989,
+      "theoretical_return_rate": 0.6066613150719253,
+      "z_return": 0.16683505745998123,
+      "total_profit_1x": -1805100.0
+     },
+     "longest_no_prize_streak": 98
+    },
+    "6": {
+     "n_draws": 185030,
+     "avg_hits": 1.5009836242771442,
+     "expected_hits": 1.5,
+     "hit_distribution": [
+      30943,
+      67021,
+      57063,
+      24087,
+      5284,
+      609,
+      23
+     ],
+     "z_hits": 0.4121655962839317,
+     "p_hits": 0.6802180518219374,
+     "significant": false,
+     "z_first_half": 0.6421400018119632,
+     "z_second_half": -0.05924982560356758,
+     "base": {
+      "return_rate": 0.6145976328163001,
+      "theoretical_return_rate": 0.6109333704270413,
+      "z_return": 0.1353955505804211,
+      "p_any_prize": 0.16215208344592769,
+      "p_profit": 0.031973193536183324,
+      "total_profit_1x": -1782775.0,
+      "max_drawdown_1x": 1782750.0
+     },
+     "promo": {
+      "return_rate": 0.7652326649732476,
+      "theoretical_return_rate": 0.7646834178479748,
+      "z_return": 0.010316668279307196,
+      "p_any_prize": 0.16215208344592769,
+      "p_profit": 0.031973193536183324,
+      "total_profit_1x": -1085975.0,
+      "max_drawdown_1x": 1105100.0
+     },
+     "actual": {
+      "return_rate": 0.6150732313678863,
+      "theoretical_return_rate": 0.6156564708407071,
+      "z_return": -0.020659436711104488,
+      "total_profit_1x": -1780575.0
+     },
+     "longest_no_prize_streak": 76
+    }
+   }
+  }
+ },
+ "daily_sessions": {
+  "3": {
+   "base": {
+    "days": 911,
+    "flat_1x": {
+     "p_day_profit": 0.008781558726673985,
+     "mean": -2311.1690450054884,
+     "median": -2425.0,
+     "p5": -3550.0,
+     "p95": -775.0
+    },
+    "martingale": {
+     "p_day_profit": 0.015367727771679473,
+     "mean": -8744.23710208562,
+     "median": -9250.0,
+     "p5": -9825.0,
+     "p95": -8850.0,
+     "p_bust": 0.9780461031833151
+    }
+   },
+   "promo": {
+    "days": 911,
+    "flat_1x": {
+     "p_day_profit": 0.2897914379802415,
+     "mean": -963.748627881449,
+     "median": -1325.0,
+     "p5": -3475.0,
+     "p95": 2075.0
+    },
+    "martingale": {
+     "p_day_profit": 0.07574094401756312,
+     "mean": -4257.766190998902,
+     "median": -9175.0,
+     "p5": -9850.0,
+     "p95": 35025.0,
+     "p_bust": 0.9154774972557629
+    }
+   },
+   "promo_days": {
+    "days": 28,
+    "flat_1x": {
+     "p_day_profit": 0.35714285714285715,
+     "mean": -462.5,
+     "median": -775.0,
+     "p5": -2825.0,
+     "p95": 3084.999999999998
+    },
+    "martingale": {
+     "p_day_profit": 0.07142857142857142,
+     "mean": -4897.321428571428,
+     "median": -9200.0,
+     "p5": -9675.0,
+     "p95": 16412.499999999945,
+     "p_bust": 0.9285714285714286
+    }
+   }
+  },
+  "4": {
+   "base": {
+    "days": 911,
+    "flat_1x": {
+     "p_day_profit": 0.008781558726673985,
+     "mean": -2528.622392974753,
+     "median": -2775.0,
+     "p5": -3525.0,
+     "p95": -950.0
+    },
+    "martingale": {
+     "p_day_profit": 0.0021953896816684962,
+     "mean": -9198.07903402854,
+     "median": -9125.0,
+     "p5": -9925.0,
+     "p95": -8825.0,
+     "p_bust": 0.9967069154774972
+    }
+   },
+   "promo": {
+    "days": 911,
+    "flat_1x": {
+     "p_day_profit": 0.1525795828759605,
+     "mean": -1498.9846322722283,
+     "median": -2150.0,
+     "p5": -3225.0,
+     "p95": 1600.0
+    },
+    "martingale": {
+     "p_day_profit": 0.025246981339187707,
+     "mean": -7412.81558726674,
+     "median": -9150.0,
+     "p5": -9925.0,
+     "p95": -8800.0,
+     "p_bust": 0.973655323819978
+    }
+   },
+   "promo_days": {
+    "days": 28,
+    "flat_1x": {
+     "p_day_profit": 0.25,
+     "mean": -1117.857142857143,
+     "median": -2125.0,
+     "p5": -3182.5,
+     "p95": 1652.4999999999995
+    },
+    "martingale": {
+     "p_day_profit": 0.03571428571428571,
+     "mean": -8096.428571428572,
+     "median": -9187.5,
+     "p5": -9907.5,
+     "p95": -8892.5,
+     "p_bust": 0.9642857142857143
+    }
+   }
+  },
+  "5": {
+   "base": {
+    "days": 911,
+    "flat_1x": {
+     "p_day_profit": 0.12403951701427003,
+     "mean": -2055.186608122942,
+     "median": -2925.0,
+     "p5": -4175.0,
+     "p95": 4775.0
+    },
+    "martingale": {
+     "p_day_profit": 0.009879253567508232,
+     "mean": -6834.769484083425,
+     "median": -9075.0,
+     "p5": -9725.0,
+     "p95": -8975.0,
+     "p_bust": 0.9890230515916575
+    }
+   },
+   "promo": {
+    "days": 911,
+    "flat_1x": {
+     "p_day_profit": 0.13391877058177826,
+     "mean": -1493.715697036224,
+     "median": -2675.0,
+     "p5": -4175.0,
+     "p95": 7575.0
+    },
+    "martingale": {
+     "p_day_profit": 0.01646542261251372,
+     "mean": -5132.6289791437985,
+     "median": -9075.0,
+     "p5": -9700.0,
+     "p95": -8950.0,
+     "p_bust": 0.9802414928649835
+    }
+   },
+   "promo_days": {
+    "days": 28,
+    "flat_1x": {
+     "p_day_profit": 0.10714285714285714,
+     "mean": -1451.7857142857142,
+     "median": -2600.0,
+     "p5": -3725.0,
+     "p95": 7042.499999999998
+    },
+    "martingale": {
+     "p_day_profit": 0.03571428571428571,
+     "mean": -8045.535714285715,
+     "median": -9075.0,
+     "p5": -9725.0,
+     "p95": -8870.0,
+     "p_bust": 0.9642857142857143
+    }
+   }
+  },
+  "6": {
+   "base": {
+    "days": 911,
+    "flat_1x": {
+     "p_day_profit": 0.038419319429198684,
+     "mean": -1981.6410537870472,
+     "median": -2700.0,
+     "p5": -3825.0,
+     "p95": -437.5
+    },
+    "martingale": {
+     "p_day_profit": 0.007683863885839737,
+     "mean": -7300.850713501646,
+     "median": -9075.0,
+     "p5": -9925.0,
+     "p95": -8850.0,
+     "p_bust": 0.9923161361141603
+    }
+   },
+   "promo": {
+    "days": 911,
+    "flat_1x": {
+     "p_day_profit": 0.05159165751920966,
+     "mean": -1222.694840834248,
+     "median": -2625.0,
+     "p5": -3825.0,
+     "p95": 75.0
+    },
+    "martingale": {
+     "p_day_profit": 0.008781558726673985,
+     "mean": -5230.1317233809,
+     "median": -9075.0,
+     "p5": -9925.0,
+     "p95": -8850.0,
+     "p_bust": 0.9901207464324918
+    }
+   },
+   "promo_days": {
+    "days": 28,
+    "flat_1x": {
+     "p_day_profit": 0.03571428571428571,
+     "mean": -506.25,
+     "median": -2300.0,
+     "p5": -3766.25,
+     "p95": -201.2500000000001
+    },
+    "martingale": {
+     "p_day_profit": 0.0,
+     "mean": -9153.57142857143,
+     "median": -9075.0,
+     "p5": -9622.5,
+     "p95": -8901.25,
+     "p_bust": 1.0
+    }
+   }
+  }
+ }
+}
