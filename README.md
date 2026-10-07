@@ -10,7 +10,7 @@
 |---|---|---|
 | 網站＋API | FastAPI（Render Web Service） | `app/main.py`，前端是 `app/static/` 的純 HTML/JS |
 | 資料庫 | Supabase Postgres | 開獎、預測、加碼活動、回測結果，schema 在 `supabase/migrations/` |
-| 排程 | 網站內建排程器＋Render Cron Job（或 Supabase pg_cron） | `app/scheduler.py` 在每期開獎後約 40 秒開始抓結果（官方約晚 1~2 分鐘公布，每 15 秒重試）；Cron Job 是網站休眠時的備援 |
+| 排程 | 網站內建排程器＋Supabase pg_cron | `app/scheduler.py` 在每期開獎後約 40 秒開始抓結果（官方約晚 1~2 分鐘公布，每 15 秒重試）；pg_cron 每 5 分鐘呼叫 `/api/cron/sync`，網站休眠時也能同步 |
 | 共用邏輯 | `core/` | 獎金表與加碼（`payouts.py`）、選號策略（`strategies.py`）、官方 API（`taiwan_lottery.py`） |
 | 回測 | `backtest/` | `run_backtest.py`（策略）、`multiplier_3star.py`（倍數），報告在 `backtest/output/` |
 
@@ -46,11 +46,10 @@ python -m app.sync                 # 試跑一次排程，產生下一期預測
 1. 把專案推到 GitHub（`.env` 和 `data/` 已在 `.gitignore` 裡，不會上傳）。
 2. Render → New → **Blueprint** → 選這個 repo，Render 會讀 `render.yaml` 建立：
    - `bingo-lab`：Web Service（免費方案）
-   - `bingo-sync`：Cron Job，每 5 分鐘執行（**付費服務**）
 3. 依提示為兩個服務填入 `DATABASE_URL`。
 4. 部署完成後打開網址，確認首頁出現最新開獎與倒數。
 
-**不想付 Cron Job 費用：** 刪掉 `render.yaml` 裡的 cron 區塊，改用 `supabase/cron_free_option.sql`，讓 Supabase 每 5 分鐘呼叫網站的 `/api/cron/sync`。缺點是免費 Web Service 閒置時會休眠，早上第一次被叫醒約需 1 分鐘。
+**設定免費排程（部署後必做）：** 用 `supabase/cron_free_option.sql` 讓 Supabase 每 5 分鐘呼叫網站的 `/api/cron/sync`（步驟寫在檔案開頭）。免費 Web Service 閒置時會休眠，第一次被叫醒約需 1 分鐘。想改用付費的 Render Cron Job，可在 `render.yaml` 加一個 `type: cron` 服務執行 `python -m app.sync`。
 
 ## 預測什麼時候出現
 

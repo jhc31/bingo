@@ -1,5 +1,9 @@
 # Render Blueprint: New > Blueprint > pick this repo.
 # DATABASE_URL = Supabase "Session pooler" connection string (IPv4), entered when prompted.
+#
+# Free setup: only the web service. Draws are synced by the app's built-in scheduler while
+# it is awake, and Supabase pg_cron (supabase/cron_free_option.sql) calls /api/cron/sync
+# every 5 minutes so the service keeps syncing even when idle.
 services:
   - type: web
     name: bingo-lab
@@ -16,20 +20,3 @@ services:
         sync: false
       - key: CRON_SECRET
         generateValue: true
-
-  # Every 5 minutes, 3 minutes after each draw (the API publishes 1-2 min late), 07:08-23:58 Taipei (UTC+8 -> 23:xx, 00-15 UTC).
-  # Cron Jobs are a paid Render service. For a free setup, delete this block and use
-  # supabase/cron_free_option.sql instead.
-  - type: cron
-    name: bingo-sync
-    runtime: python
-    plan: starter
-    region: singapore
-    schedule: "3-59/5 0-15,23 * * *"
-    buildCommand: pip install -r requirements.txt
-    startCommand: python -m app.sync
-    envVars:
-      - key: PYTHON_VERSION
-        value: "3.13"
-      - key: DATABASE_URL
-        sync: false
